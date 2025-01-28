@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #dfdfdf;
+}
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 50px 0;
+}
+.group-1,
+.group-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.style {
+  background-color: #f1f1f1;
+  padding: 20px 50px;
+  margin: 10px 10px;
+  box-shadow: 0 0 5px 2px rgb(180, 180, 180);
+}
+.box-style,
+a {
+  background-color: #9e9e9e72;
+  width: 100px;
+  height: 100px;
+}
+a {
+  display: inline-block;
+  background-color: #c73bf172;
+  transition: all 0.5s;
+}
+.box1:hover a {
+  transform: rotate(45deg);
+}
+.box2:hover a {
+  transform: scale(1, 0.7);
+}
+.box3:hover a {
+  transform: scale(0.7, 1);
+}
+.box4:hover a {
+  transform: scale(2, 2);
+}
+.box5:hover a {
+  transform: scale(2, 1);
+}
+.box6:hover a {
+  transform: scale(1, 2);
+}
+.box7:hover a {
+  transform: skew(45deg, 0);
+}
+.box8:hover a {
+  transform: skew(0, 45deg);
+}
+.box9:hover a {
+  transform: translate(40px, 20px);
+}
+.box10:hover a {
+  transform: translate(40px, 0);
+}
+.box11:hover a {
+  transform: translate(0, 40px);
+}
+.box12:hover a {
+  transform: skew(0, 45deg) scale(2, 2) translate(23px, -25px);
+}
+.box13:hover a {
+  transform: perspective(100px) rotateX(45deg);
+}
+.box14:hover a {
+  transform: perspective(100px) rotateY(45deg);
+}
+.box15 a {
+  transform-origin: top right;
+}
+.box15:hover a {
+  transform: rotate(45deg);
+}
+.box16 a {
+  transform-origin: bottom left;
+}
+.box16:hover a {
+  transform: rotate(45deg);
+}
+.box17 a {
+  transform-origin: bottom;
+}
+.box17:hover a {
+  transform: perspective(150px) rotateX(30deg);
+}
+.box18 a {
+  transform-origin: top;
+}
+.box18:hover a {
+  transform: perspective(250px) rotateX(60deg);
+}
+.box19 a {
+  transform-origin: left;
+}
+.box19:hover a {
+  transform: perspective(150px) rotateY(30deg);
+}
+.box20 a {
+  transform-origin: right;
+}
+.box20:hover a {
+  transform: perspective(250px) rotateY(60deg);
+}
+.box21 a {
+  transform-origin: top right;
+}
+.box21:hover a {
+  transform: scale(2, 2);
+}
+.box22 a {
+  transform-origin: bottom left;
+}
+.box22:hover a {
+  transform: scale(2, 2);
+}
+.box23 a {
+  transform-origin: right;
+}
+.box23:hover a {
+  transform: scale(2, 1);
+}
+.box24 a {
+  transform-origin: left;
+}
+.box24:hover a {
+  transform: scale(2, 1);
+}
+.box25 a {
+  transform-origin: top;
+}
+.box25:hover a {
+  transform: scale(1, 2);
+}
+.box26 a {
+  transform-origin: bottom;
+}
+.box26:hover a {
+  transform: scale(1, 2);
+}
